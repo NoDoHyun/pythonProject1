@@ -1,0 +1,5 @@
+name=(input())
+namelist=list(name)
+print(namelist[2:5])
+del(namelist[2:5])
+print(namelist)
